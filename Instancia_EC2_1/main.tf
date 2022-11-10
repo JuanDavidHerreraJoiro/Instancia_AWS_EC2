@@ -29,7 +29,3 @@ resource "aws_instance" "terraform_ec2_1" {
     Name = "Terraform EC2-1"
   }
 }
-
-/*output "public_ip" {
-  value       = aws_instance.web.public_ip
-}*/
